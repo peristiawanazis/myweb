@@ -1,0 +1,401 @@
+
+
+body {
+background-color: transparent;
+background-image: url('http://localhost:8080/ibnu/images/bg_gradient.png');
+background-repeat: repeat-x;
+background-attachment: scroll;
+background-position: 0px 48px;
+text-decoration: none;
+font-family: Consolas, monaco, monospace;
+
+}
+
+.ibnu, .title {
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  
+  color: #333333;
+  background-color: #ffffff;
+}
+
+#text_topbar {
+position: absolute;
+float: left;
+left: 17%;
+color: #DEDCDD;
+margin-top: 1.5px;
+font: 13px/1.5 Helvetica,Arial,"DejaVu Sans Condensed",sans-serif ;
+line-height: 1.9;
+
+}
+
+#container {
+margin:0 auto;
+position:relative;
+top: 110px;
+width:900px;
+height: 520px;
+margin-bottom:2em;
+
+}	
+
+/* Sudo Slider */
+#slider ul, #slider li{margin:0;padding:0;list-style:none;position:relative;display:block;}
+#slider, #slider li {width:900px;overflow:hidden;}
+/* // Sudo Slider */	
+/* Numeric Navigation */
+
+.graphic, .prevBtn, .nextBtn{margin:0;padding:0;display:block;overflow:hidden;text-indent:-8000px;}
+.prevBtn, .nextBtn {display:block;width:48px;height:60px;position:absolute;left:-80px;top:190px;z-index:1000;background:url(http://localhost:8080/ibnu/images/btn_prev.gif) no-repeat 0 0;cursor:pointer;}	
+.nextBtn{left:902px;}														
+.nextBtn {background:url(http://localhost:8080/ibnu/images/btn_next1.gif) no-repeat 0 0;}	
+.nextBtn:hover {background:url(http://localhost:8080/ibnu/images/btn_next1_hover.gif) no-repeat 0 0; }
+.prevBtn:hover {background:url(http://localhost:8080/ibnu/images/btn_prev_hover.gif) no-repeat 0 0; }
+
+
+.title {
+position: relative;
+margin-top: 60px;
+}
+.sub_bio{
+position: absolute;
+margin-left: 30%;
+top: 27%;
+font-size: 13.4px;
+color: #5E5C5D;
+}
+.sub_bio .bungkus {
+
+text-align: :left;
+}
+#edukasi {
+position: absolute;
+margin-left: 5.2%;
+}
+h4 {
+margin: 0px;
+line-height: 1.7;
+}
+
+
+
+
+	hr{
+	position: relative;
+	margin-bottom: 42%;
+	width: 57.9%;
+	float: left;
+	bottom: 25px;
+	border: 0;
+    height: 2px;
+    background: #333;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.75)), color-stop(100%,hsla(0,0%,0%,0)));
+    background: -webkit-linear-gradient(left, hsla(0,0%,0%,20) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:    -moz-linear-gradient(left, hsla(0,0%,0%,20) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:     -ms-linear-gradient(left, hsla(0,0%,0%,20) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:      -o-linear-gradient(left, hsla(0,0%,0%,20) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:         linear-gradient(left, hsla(0,0%,0%,20) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    }
+	
+#edu {
+float: right;
+left: 12%;
+margin-top: 1%;
+background: #333;
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.75)), color-stop(100%,hsla(0,0%,0%,100)));
+background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,20) 100%);
+background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,20) 100%);
+background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,20) 100%);
+background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,20) 100%);
+}	
+	
+ #bio_img {
+box-shadow: 1px 10px 10px #888888;
+}
+
+.perintilan {
+position: absolute;
+margin-top: 31%;
+margin-left: 30.2%;
+width: 100px;
+}
+
+.perintilan #bio_peri {
+width: 24px;
+height: 22px;
+
+}
+
+.perintilan_edu {
+position: relative;
+margin-top: 26%;
+left: 83%;
+width: 100px;
+}
+
+.perintilan_edu #edukasi_peri {
+width: 34px;
+height: 25px;
+}
+
+.bungkus {
+position: relative;
+width: 100%;
+height: 90%;
+margin-bottom: 10px;
+}
+
+.clear {
+position: relative;
+margin-bottom: 10px;
+}
+
+#gamdes {
+position: absolute;
+bottom: 1px;
+float: left;
+right: 101%;
+}
+
+#gamdes img {
+width: 36px;
+height: 30px;
+}
+
+#skill_table_satu  {
+position: relative;
+width: 100%;
+margin-left: 1px;
+right: 3%;
+text-align: justify;
+}
+
+#skill_table_satu td, #skill_table_dua  td, #skill_table_tiga td, #skill_table_empat td, #skill_table_lima  td, #skill_table_enam  td {
+padding-left: 19px;
+}
+
+#skill_table_dua {
+position: relative;
+width: 100%;
+margin-left: 1px;
+right: 3%;
+}
+
+#skill_table_tiga {
+position: relative;
+width: 100%;
+margin-left: 1px;
+right: 3%;
+}
+
+#skill_table_empat {
+position: relative;
+width: 100%;
+margin-left: 1px;
+right: 3%;
+}
+
+#skill_table_lima {
+position: relative;
+width: 100%;
+margin-left: 1px;
+right: 3%;
+}
+
+#skill_table_enam {
+position: relative;
+width: 100%;
+margin-left: 1px;
+right: 3%;
+}
+
+#gamkil img {
+position: absolute;
+left: 52%;
+}
+
+
+.kontak {
+position: absolute;
+margin-left: 1%;
+top: 30%;
+font-size: 13.4px;
+color: #5E5C5D;
+}
+
+#tagline {
+position: absolute;
+}
+
+.kontak_link {
+position: absolute;
+margin-top: 12%;
+margin-left: 1px;
+}
+#kontak_detail {
+line-height: 17px;
+}
+
+.nav {
+position: absolute;
+margin: 0px;
+padding: 0px;
+left: 16%;
+}
+
+a.dropdown-toggle, li a{
+text-decoration: none;
+}
+
+a.sticker, a.sticker2 {
+text-decoration: none;
+font-size: 12px;
+}
+
+#porto_button {
+position: relative;
+bottom: 340px;
+font-size: 27px;
+}
+
+.deskripsi_porto {
+position: absolute;
+top: 38%;
+margin: 0px;
+padding: 0px;
+color: #5E5C5D;
+font-size: 14px;
+}
+.deskripsi_porto h3 {
+margin: 0px;
+
+}
+
+
+a.sticker  {
+border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
+font-family:arial, helvetica, sans-serif; 
+padding: 4px 4px 4px 4px; 
+text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+font-weight:bold; text-align: center; color: #FFFFFF; background-color: #3093c7;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+ background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+
+a.sticker:hover {
+border:1px solid #1c5675; background-color: #26759e;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), top(#133d5b));
+ background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+ background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+ background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+ background-image: -o-linear-gradient(top, #26759e, #133d5b);
+ background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+
+a.sticker2 {
+border:1px solid #ffad41; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
+padding: 4px 4px 4px 4px; text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; text-align: center; color: #FFFFFF; background-color: #EB891A;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#EB891A), to(#DB891F));
+ background-image: -webkit-linear-gradient(top, #EB891A, #DB891F);
+ background-image: -moz-linear-gradient(top, #EB891A, #DB891F);
+ background-image: -ms-linear-gradient(top, #EB891A, #DB891F);
+ background-image: -o-linear-gradient(top, #EB891A, #DB891F);
+ background-image: linear-gradient(to bottom, #EB891A, #DB891F);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#EB891A, endColorstr=#DB891F);
+}
+
+a.sticker2:hover {
+ border:1px solid #b56000; background-color: #E39624;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#E39624), top(#BF770A));
+ background-image: -webkit-linear-gradient(top, #E39624, #BF770A);
+ background-image: -moz-linear-gradient(top, #E39624, #BF770A);
+ background-image: -ms-linear-gradient(top, #E39624, #BF770A);
+ background-image: -o-linear-gradient(top, #E39624, #BF770A);
+ background-image: linear-gradient(to bottom, #E39624, #BF770A);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E39624, endColorstr=#BF770A);
+ } 
+
+a.dropdown-toggle :hover, a.dropdown-toggle img:hover   {
+text-decoration: none;
+
+}
+
+.img_servis  {
+position: absolute;
+width: 98%;
+height: 230%;
+margin-left: 4%;
+}
+ #img_ser_satu {
+position: absolute;
+width: 45%;
+height: 325%;
+top: 20%;
+-webkit-box-shadow: 0 6px 6px -8px black;
+	   -moz-box-shadow: 0 6px 6px -8px black;
+	        box-shadow: 0 6px 6px -8px black;
+}
+ #img_ser_dua {
+position: absolute;
+width: 5,5%;
+height: 110%;
+top: 248%;
+margin-left: 24%;
+-webkit-box-shadow: 0 6px 6px -6px black;
+	   -moz-box-shadow: 0 6px 6px -6px black;
+	        box-shadow: 0 6px 6px -6px black;
+			z-index: 2;
+}
+
+#img_ser_tiga {
+position: absolute;
+width: 20%;
+height: 155%;
+top: 195%;
+margin-left: 26%;
+z-index: 1;
+}
+
+.table_porto {
+position: absolute;
+left: 33%;
+top: 30%;
+}
+ .table_porto img{
+width: 84px;
+height: 87px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+position: absolute;
+float: left;
+font-size: 11px;
+color:rgb(102, 102, 102);
+margin-top: 14%;
+font-family: Consolas, monaco, monospace;
+
+z-index: 100;
+}

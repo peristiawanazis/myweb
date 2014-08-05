@@ -1,0 +1,52 @@
+
+/* the overlayed element */
+
+ #overlay {
+position: absolute;
+top: 0;
+left: 0;
+background-color: #fff ;
+color:#efefef;
+height:400px;
+color: #000;
+}
+
+ #head_overlay{
+    background-color:rgb(102, 102, 102);
+    position:absolute; right:0%; top:0px;
+	cursor:pointer;
+    height:30px;
+    width:100%;
+	z-index: -1;
+	bottom: 100px;
+}
+
+  /* container for external content. uses vertical scrollbar, if needed */
+  div.contentWrap {
+    overflow-y:auto;
+	margin: 0 auto;
+	
+}
+
+  /* asdasd */
+.apple_overlay {
+display:none;
+background-image:url(white.png);
+width:370px;
+padding:15px;
+font-size:11px;
+overflow: auto;
+border-radius: 10px 10px 10px 10px;
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+    background-image:url(http://localhost:8080/ibnu/images/close.png);
+    position:absolute; right:1px; top:0px;
+	cursor:pointer;
+    height:35px;
+    width:35px;
+	border-radius: 10px 10px 10px 10px;
+}
+  
+  
