@@ -7,7 +7,7 @@
 | mengakses langsung folder css ini.
 |
 */
-	header ('Location: http://localhost:8080/ibnu/');
+//	header ('Location: http://localhost:8080/ibnu/');
 
 /* End of file index.php */
 /* Location: ./css/index.php */

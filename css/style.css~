@@ -398,7 +398,7 @@ position: absolute;
 float: left;
 font-size: 11px;
 color:rgb(102, 102, 102);
-margin-top: 14%;
+margin-top: 1%;
 font-family: Consolas, monaco, monospace;
 
 z-index: 100;
